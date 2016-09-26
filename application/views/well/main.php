@@ -1,0 +1,4 @@
+<?=$points?>
+<?php print_r($budget); ?>
+<?=$helper?>
+<?=CI_VERSION?>

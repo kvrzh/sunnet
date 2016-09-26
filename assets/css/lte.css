@@ -1,0 +1,203 @@
+.info-box {
+  display: block;
+  min-height: 90px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+.info-box small {
+  font-size: 14px;
+}
+.info-box .progress {
+  background: rgba(0, 0, 0, 0.2);
+  margin: 5px -10px 5px -10px;
+  height: 2px;
+}
+.info-box .progress,
+.info-box .progress .progress-bar {
+  border-radius: 0;
+}
+.info-box .progress .progress-bar {
+  background: #fff;
+}
+.info-box-icon {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+  display: block;
+  float: left;
+  height: 90px;
+  width: 90px;
+  text-align: center;
+  font-size: 45px;
+  line-height: 90px;
+  padding-top: 18px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.info-box-let {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+  display: block;
+  float: left;
+  height: 90px;
+  width: 90px;
+  text-align: center;
+  font-size: 45px;
+  line-height: 90px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.info-box-img {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+  display: block;
+  float: left;
+  height: 90px;
+  width: 90px;
+  text-align: center;
+  font-size: 45px;
+  line-height: 90px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.info-box-img > img {
+  max-width: 100%;
+}
+.info-box-icon > img {
+  max-width: 100%;
+}
+.info-box-content {
+  padding: 5px 10px;
+  margin-left: 90px;
+}
+.info-box-number {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+}
+.progress-description,
+.info-box-text {
+  display: block;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.info-box-text {
+  text-transform: uppercase;
+}
+.info-box-more {
+  display: block;
+}
+.progress-description {
+  margin: 0;
+}
+.label-big {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+a{
+  cursor: hand;
+}
+.bg-light-grey {
+  background-color: #E2E2E2 !important;
+}
+.width-150{
+  width:150px!important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    color: #151515;
+}
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #E7E7E7;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 7px 1px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.td-bot{
+  min-height: 35px;
+      border-top: 1px solid #E7E7E7;
+      font-size:12px;
+}
+.td-mbot{
+  min-height: 35px;
+      border-top: 1px solid #E7E7E7;
+}
+.td-right{
+      border-right: 1px solid #E7E7E7;
+
+}
+.td-bold{
+  font-weight: bold;
+}
+.td-mbold{
+      font-size:14px;
+  font-weight: bold;
+}
+.td-date{
+        font-size:12px;
+}
+.td-comment{
+  font-size: 12px; 
+}
+.td-comment>span{
+  font-size:13px;
+}
+.td-top{
+  min-height: 35px;
+}
+.img_table {
+    width: 50px;
+    height: 50px;
+  }
+  .img_stable {
+    width: 30px;
+    height: 30px;
+  }
+.img_edit{
+  margin-top:10px; 
+}
+.bg-y{
+  background-color: rgba(214, 188, 0, 0.26)  !important;
+}
+.bg-r{
+    background-color: rgba(221, 75, 57, 0.26) !important;
+
+}
+.bg-g{
+    background-color: rgba(150, 150, 150, 1) !important;
+
+}
+.display-none{
+  display: none;;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
